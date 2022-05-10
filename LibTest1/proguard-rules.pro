@@ -21,4 +21,4 @@
 #-renamesourcefileattribute SourceFile
 
 #-keep public class ** extends com.example1.libtest1.Father
--keepclasseswithmembers public class ** extends com.example1.libtest1.Father
+-keepclasseswithmembernames public class * extends com.example1.libtest1.Father
