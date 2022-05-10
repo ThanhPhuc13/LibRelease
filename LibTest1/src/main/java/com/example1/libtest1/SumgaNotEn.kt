@@ -1,6 +1,6 @@
 package com.example1.libtest1
 
-class SumgaNotEn {
+class SumgaNotEn: Father() {
     companion object {
         fun show(): String {
             return Sumga.show()
