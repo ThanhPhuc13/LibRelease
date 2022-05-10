@@ -20,4 +20,6 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep public class com.example1.libtest1.*
+-keep public class com.example1.libtest1.* {
+    public *;
+}

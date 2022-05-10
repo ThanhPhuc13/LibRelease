@@ -6,4 +6,8 @@ class SumgaNotEn {
             return Sumga.show()
         }
     }
+
+    private fun showV2(): String {
+        return "showV2 private"
+    }
 }
