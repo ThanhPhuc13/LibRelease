@@ -22,6 +22,6 @@
 
 #-keep public class ** extends com.example1.libtest1.Father
 -keep public class com.example1.libtest1.SumgaNotEn
--keepclassmembers class com.example1.libtest1.SumgaNotEn {
+-keepclassmembernames class com.example1.libtest1.SumgaNotEn {
     public *;
 }
